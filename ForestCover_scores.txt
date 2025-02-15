@@ -1,0 +1,13 @@
+Forest Cover Type (Multinomial) Kaggle Scores
+
+Model Type		Best Score (multi-class classification accuracy, higher is better)
+
+logistic regression	0.595
+naive bayes		0.577
+k-nearest neighbors	0.666
+decision tree		0.626
+random forest		0.747 ***
+xgboost			0.610
+nnet (single layer)	0.027
+svm			0.528
+stacked(lr,nb,rf,xgb)	0.761 ***
